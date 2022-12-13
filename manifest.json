@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "id": "YOUR_SNIPPET_ID",
+  "name": "YOUR_SNIPPET_NAME",
+  "author": "YOUR_NAME",
+  "repoUrl": "",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "theme": [],
+  "enableOnMobile": false,
+  "description": "YOUR_SNIPPET_DESCRIPTION",
+  "requestNative": false,
+  "requiredScopes": [
+    {
+      "type": "All",
+      "level": "Read"
+    }
+  ]
+}
