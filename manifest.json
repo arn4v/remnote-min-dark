@@ -1,22 +1,17 @@
 {
   "manifestVersion": 1,
-  "id": "YOUR_SNIPPET_ID",
-  "name": "YOUR_SNIPPET_NAME",
-  "author": "YOUR_NAME",
-  "repoUrl": "",
+  "id": "minimal-dark",
+  "name": "Min Dark",
+  "description": "An adaptation of the VSCode Min Theme for RemNote",
+  "author": "Arnav Gosain",
+  "repoUrl": "https://github.com/arn4v/remnote-min-dark",
   "version": {
-    "major": 0,
+    "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 0
   },
-  "theme": [],
-  "enableOnMobile": false,
-  "description": "YOUR_SNIPPET_DESCRIPTION",
+  "enableOnMobile": true,
+  "theme": ["dark"],
   "requestNative": false,
-  "requiredScopes": [
-    {
-      "type": "All",
-      "level": "Read"
-    }
-  ]
+  "requiredScopes": []
 }

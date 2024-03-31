@@ -1,1 +1,35 @@
-/* Add your custom styles here. See the docs for help: https://plugins.remnote.com/custom-css */
+:root {
+  --bg-primary: #1f1f1f;
+  --bg-light-accent: #ff9800;
+}
+
+.rn-clr-border-opaque {
+  border-color: #444 !important;
+}
+
+.remnote-tooltip-container,
+.table-background-overlay,
+.rn-clr-background-primary {
+  background: var(--bg-primary) !important;
+}
+
+div[data-plugin-id="demo-tabs"] > div > div.rn-clr-background-primary,
+div[data-plugin-id="demo-tabs"]
+  div.smooth-dnd-container
+  .rn-clr-background-primary,
+.rn-sidebar {
+  background: #1a1a1a;
+}
+
+div[data-plugin-id="demo-tabs"] > div > div.rn-clr-background-secondary,
+div[data-plugin-id="demo-tabs"]
+  div.smooth-dnd-container
+  .rn-clr-background-secondary,
+div[data-plugin-id="demo-tabs"]
+  div.smooth-dnd-container
+  div.rn-clr-background-secondary,
+div[data-plugin-id="demo-tabs"] > div,
+.rn-pane__top-bar,
+.rn-pane__body {
+  background: #1f1f1f !important;
+}
