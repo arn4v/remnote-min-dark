@@ -13,12 +13,23 @@
   background: var(--bg-primary) !important;
 }
 
-div[data-plugin-id="demo-tabs"] > div > div.rn-clr-background-primary,
-div[data-plugin-id="demo-tabs"]
-  div.smooth-dnd-container
-  .rn-clr-background-primary,
+[data-plugin-id="demo-tabs"] .h-\[50px\] {
+  height: 32px !important;
+  font-size: 14px;
+}
+
+div[data-plugin-id="demo-tabs"] .h-\[50px\].rn-clr-background-secondary {
+  background-color: #000;
+}
+
+div[data-plugin-id="demo-tabs"] input {
+  background-color: transparent !important;
+}
+
+div[data-plugin-id="demo-tabs"] .h-\[50px\].rn-clr-background-primary,
 #PopupContent,
-div[data-search-result="search-result-panel"],
+.rich-text-editor__search-results div[data-search-result="search-result-panel"],
+[data-cy="omnibar"],
 .rn-sidebar {
   background: #1a1a1a !important;
 }
