@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/arn4v/remnote-min-dark/main/icon.png" width="140" />
+<img src="https://raw.githubusercontent.com/arn4v/remnote-min-dark/main/logo.png" width="140" />
 
 # Min Dark for RemNote
 
