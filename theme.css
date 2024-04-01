@@ -53,10 +53,12 @@ div[data-plugin-id="demo-tabs"] input {
   background-color: transparent !important;
 }
 
+div[data-omnibar-results="true"],
 div[data-plugin-id="demo-tabs"] .h-\[50px\].rn-clr-background-primary,
 #PopupContent,
 .rich-text-editor__search-results div[data-search-result="search-result-panel"],
 [data-cy="omnibar"],
+#search-results__no-results,
 .rn-sidebar {
   background: #1a1a1a !important;
 }
