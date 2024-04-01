@@ -3,6 +3,33 @@
   --bg-light-accent: #ff9800;
 }
 
+#search-results__result.rn-clr-background--hovered {
+  background: var(--rn-clr-background-secondary);
+}
+
+#search-results__result div[label="Search All Notes"] {
+  margin-right: 12px;
+}
+
+div[data-cy="omnibar"][data-omnibar-type="command"]
+  div[data-text-type="label"] {
+  margin-left: 8px !important;
+  padding-top: 4px !important;
+  padding-bottom: 8px !important;
+}
+
+div[data-cy="omnibar"][data-omnibar-type="command"]
+  #search-results__result
+  > div
+  > div {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 48px;
+  box-sizing: border-box;
+}
+
 .rn-clr-border-opaque {
   border-color: #444 !important;
 }
