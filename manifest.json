@@ -7,8 +7,8 @@
   "repoUrl": "https://github.com/arn4v/remnote-min-dark",
   "version": {
     "major": 1,
-    "minor": 0,
-    "patch": 3
+    "minor": 1,
+    "patch": 0
   },
   "enableOnMobile": true,
   "theme": ["dark"],
