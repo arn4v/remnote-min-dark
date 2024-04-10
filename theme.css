@@ -57,6 +57,9 @@ div[data-cy="tag-configure-options"] > div {
   padding: 24px 32px;
 }
 
+.rn-floating-toolbar,
+.rn-popup.popup-menu > .rn-popup__content,
+div[data-cy="selected-text-menu"],
 div[data-cy="tag-configure-options"] > div,
 div[data-omnibar-results="true"],
 div[data-plugin-id="demo-tabs"] .h-\[50px\].rn-clr-background-primary,
