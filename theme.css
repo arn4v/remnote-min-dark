@@ -53,6 +53,11 @@ div[data-plugin-id="demo-tabs"] input {
   background-color: transparent !important;
 }
 
+div[data-cy="tag-configure-options"] > div {
+  padding: 24px 32px;
+}
+
+div[data-cy="tag-configure-options"] > div,
 div[data-omnibar-results="true"],
 div[data-plugin-id="demo-tabs"] .h-\[50px\].rn-clr-background-primary,
 #PopupContent,
@@ -73,6 +78,7 @@ div[data-plugin-id="demo-tabs"] .h-\[50px\].rn-clr-background-primary,
   color: #e0e0e0 !important;
 }
 
+#hierarchy-editor .tree-node--automatic-search-portal-header,
 div[data-plugin-id="demo-tabs"] > div > div.rn-clr-background-secondary,
 div[data-plugin-id="demo-tabs"]
   div.smooth-dnd-container
