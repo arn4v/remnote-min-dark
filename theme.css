@@ -23,9 +23,16 @@ div[data-cy="omnibar"][data-omnibar-type="command"]
 }
 
 .remnote-tooltip-container,
-.table-background-overlay,
-.rn-clr-background-primary {
+.rn-clr-background-primary:not(.table-cell-or-list-container) {
   background: var(--bg-primary) !important;
+}
+
+.table-cell-or-list-container:not([class*="!bg-gray-5"]) {
+  background-color: var(--bg-primary) !important;
+}
+
+.table-cell-list-container {
+  z-index: 0 !important;
 }
 
 [data-plugin-id="demo-tabs"] .h-\[50px\] {
